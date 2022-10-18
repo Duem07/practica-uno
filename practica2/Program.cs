@@ -12,6 +12,7 @@ namespace practica2
         {
            Console.WriteLine(suma(34, 56));
             Console.WriteLine(resta(85, 27));
+            Console.WriteLine(multiplica(5, 8));
             Console.Read();
         }
 
@@ -24,6 +25,12 @@ namespace practica2
         static int resta(int num1, int num2)
         {
             int resultado = num1 - num2;
+            return resultado;
+        }
+
+        static int multiplica(int num1, int num2)
+        {
+            int resultado = num1 * num2;
             return resultado;
         }
     }
